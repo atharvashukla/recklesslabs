@@ -5,14 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>RECKLESS LABS</title>
-    <link rel="stylesheet" href="style.css" />
+    <style>
+      @font-face {
+        font-family: "SugarDeath";
+        src: url("sugardeath.ttf");
+      }
+
+      @keyframes blink {
+        0% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+    </style>
   </head>
-  <body>
-    <div class="center">
+  <body style="background-color: black; color: white">
+    <div style="display: flex; justify-content: center; align-items: center; flex-direction: column">
       <h1 style="font-family: SugarDeath">WE ARE <span style="color: red">RECKLESS</span></h1>
-      <p><img width="100" src="nail.png" /></p>
+      <p><img style="animation: blink 2s; animation-iteration-count: infinite" width="100" src="nail.png" /></p>
       <p style="color: greenyellow">
-        <code><span style="color: rgb(255, 255, 255)">team</span> [@] recklesslabs [.] co</code>
+        <code>team [@] recklesslabs [.] co</code>
       </p>
     </div>
   </body>
