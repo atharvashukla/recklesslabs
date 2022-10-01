@@ -31,7 +31,10 @@ p {
   transform: rotate(270deg);
   text-align: right;
   margin-top: -70px;
-  opacity: 0.8;
+}
+
+.person:hover {
+  opacity: 1;
 }
 
 a {
@@ -40,11 +43,17 @@ a {
 }
 
 .person {
+  opacity: 0.6;
   cursor: url("../assets/cursors/cur116.cur"), auto !important;
 }
 
 .maillink {
+  opacity: 0.6;
   cursor: url("../assets/cursors/gam373.cur"), auto !important;
+}
+
+.maillink:hover {
+  opacity: 1;
 }
 
 @font-face {
