@@ -2,8 +2,9 @@
   "name": "recklesslabs",
   "version": "1.0.0",
   "description": "recklesslabs.co website",
+  "source": "src/index.html",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel",
     "build": "parcel build src/index.html"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",
