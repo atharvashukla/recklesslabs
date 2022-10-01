@@ -1,0 +1,26 @@
+{
+  "name": "recklesslabs",
+  "version": "1.0.0",
+  "description": "recklesslabs.co website",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atharvashukla/recklesslabs.git"
+  },
+  "keywords": [
+    "recklesslabs"
+  ],
+  "author": "derb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atharvashukla/recklesslabs/issues"
+  },
+  "homepage": "https://github.com/atharvashukla/recklesslabs#readme",
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  }
+}

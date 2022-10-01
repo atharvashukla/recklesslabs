@@ -1,0 +1,69 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  padding-top: 70px;
+  font-size: x-large;
+  font-family: SugarDeath;
+  white-space: nowrap;
+}
+
+img {
+  animation: blink 2s;
+  animation-iteration-count: infinite;
+  cursor: url("../assets/cursors/cur116.cur"), auto !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: x-large;
+}
+
+.team {
+  transform: rotate(270deg);
+  text-align: right;
+  margin-top: -70px;
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
+  font-family: monospace;
+}
+
+.person {
+  cursor: url("../assets/cursors/cur116.cur"), auto !important;
+}
+
+.maillink {
+  cursor: url("../assets/cursors/gam373.cur"), auto !important;
+}
+
+@font-face {
+  font-family: "SugarDeath";
+  src: url("../assets/fonts/sugardeath.ttf");
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+* {
+  cursor: url("../assets/cursors/cur117.cur"), auto !important;
+}
